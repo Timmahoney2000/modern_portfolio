@@ -3,15 +3,11 @@
   "version": "1.0.0",
   "description": "Modern Portfolio",
   "main": "index.js",
-  "scripts": {
+"scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
-  "repository": {
-    "type": "git",
-    "url": "modern_portfolio"
-  },
   "author": "Timothy Mahoney",
-  "license": "ISC",
+  "license": "TJM",
   "dependencies": {
     "node-sass":"6.0.1"
   }
