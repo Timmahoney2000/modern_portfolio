@@ -11,7 +11,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #fff;
+        background: set-text-color($primary-color);
         @include easeOut;
     }
 
@@ -43,7 +43,7 @@
 .menu {
     position: relative;
     top: 0;
-    opacity: 0.5;
+    opacity: 0.9;
     width: 50%;
     visibility: hidden;
 
@@ -120,7 +120,7 @@
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
-        color: #fff;
+        color: set-text-color($primary-color);
         text-decoration: none;
         @include easeOut;
 
